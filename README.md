@@ -1,5 +1,5 @@
 # Framework-ML-Model
-En este repositorio se almacenará la información y los avances que se tengan respecto a la programación de un modelo de Machine Learning utilizando una biblioteca o framework.
+En este repositorio se almacenará la información y los avances que se tengan respecto a la programación de un modelo de Machine Learning utilizando una biblioteca o framework. El modelo elegido es el de regresión mediante árboles de decisión.
 
 ## Ejecución del programa
 Al correr el programa, lo que se puede esperar, con los datos incluidos por el momento es lo siguiente:
