@@ -25,11 +25,6 @@ print("Suma de duplicados: " + str(df.duplicated().sum()))
 #Eliminar filas
 df=df.drop(["M_estat","M_peso"],axis=1).copy()
 
-#Se despliega una gráfica que muestra los puntos(X,Y) a utilizar en el modelo.
-plt.scatter(df.H_estat, df.H_peso)
-plt.title("Original Full Data")
-plt.show()
-
 #Librerías de ML para el modelo
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
